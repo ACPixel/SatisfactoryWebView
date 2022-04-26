@@ -28,16 +28,16 @@ export default function Item({
           <div className="text-xl font-bold">{name}</div>
         </div>
         <div className="flex justify-center text-center text-green-500">
-          Producing: {(currentProduction * 75 ).toFixed(1)} /m.
+          Producing: {(currentProduction ).toFixed(1)} /m.
         </div>
         <div className="flex justify-center text-center text-green-500">
-          Can produce: {(maxProduction * 75 ).toFixed(1)} /m.
+          Can produce: {(maxProduction ).toFixed(1)} /m.
         </div>
         <div className="flex justify-center text-center text-red-500">
-          Consuming: {(currentConsumption * 75 ).toFixed(1)} /m.
+          Consuming: {(currentConsumption ).toFixed(1)} /m.
         </div>
         <div className="flex justify-center text-center text-red-500">
-          Can consume: {(maxConsumption * 75 ).toFixed(1)} /m.
+          Can consume: {(maxConsumption ).toFixed(1)} /m.
         </div>
       </div>
 
